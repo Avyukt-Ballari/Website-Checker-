@@ -1,0 +1,27 @@
+{
+ "background": {"scripts": ["background.js"]},
+ "browser_action": {
+ "default_icon": "icon-128.png",
+ "default_title": "Website Checker"
+ },
+ "name": "Website Checker",
+ "description": "Its a site checker for school purposes",
+ "homepage_url": "http://blog.self.li/post/16366939413/how-to-convert-bookmarklet-to-chrome-extension",
+ "icons": {
+     "16": "icon-16.png",
+     "48": "icon-48.png",
+     "128": "icon-128.png" },
+ "permissions": [
+     "tabs",
+     "http://*/*",
+     "https://*/*"
+ ],
+ "content_scripts": [
+     {
+         "matches": ["*://sites.google.com/site/unblockedgame/*"],
+         "js": ["content-script.js"]
+     }
+ ],
+ "version": "0.1",
+ "manifest_version": 2
+}
