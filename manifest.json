@@ -1,7 +1,9 @@
 {
-    "default_icon": "icon-128.png",
-    "default_title": "Website Checker",
-    "name": "School Website Checker",
+    "icons": {
+        "16": "icon-16.png",
+        "48": "icon-48.png",
+        "128": "icon-128.png" },    
+        "name": "School Website Checker",
     "version": "1",
     "declarative_net_request": {
       "rule_resources": [{
@@ -10,10 +12,6 @@
         "path": "blocksite.json"
       }]
     },
-    "icons": {
-        "16": "icon-16.png",
-        "48": "icon-48.png",
-        "128": "icon-128.png" },
     "permissions": [
       "declarativeNetRequest"
     ],
