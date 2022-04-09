@@ -4,7 +4,7 @@
         "48": "icon-48.png",
         "128": "icon-128.png" },    
         "name": "School Website Checker",
-    "version": "1",
+    "version": "2.1",
     "declarative_net_request": {
       "rule_resources": [{
         "id": "ruleset_1",

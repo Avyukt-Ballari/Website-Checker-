@@ -1,51 +1,78 @@
 [
 {
     "id": 1,
-    "priority": 2,
+    "priority": 3,
     "action": { "type": "block" },
     "condition": {"urlFilter": "unblocked", "resourceTypes": ["main_frame"] }
   },
 
     {
         "id": 2,
-        "priority": 2,
+        "priority": 3,
         "action": { "type": "block" },
         "condition": {"urlFilter": "unblockedgames", "resourceTypes": ["main_frame"] }
       },
       {
         "id": 3,
-        "priority": 1,
+        "priority": 2,
         "action": { "type": "block" },
         "condition": {"urlFilter": "lichgames", "resourceTypes": ["main_frame"] }
       },
       {
         "id": 4,
-        "priority": 1,
+        "priority": 2,
         "action": { "type": "block" },
         "condition": {"urlFilter": "1v1.lol", "resourceTypes": ["main_frame"] }
       },
       {
         "id": 5,
-        "priority": 1,
+        "priority": 2,
         "action": { "type": "block" },
         "condition": {"urlFilter": "1v1lol", "resourceTypes": ["main_frame"] }
       },
       {
         "id": 6,
-        "priority": 1,
+        "priority": 2,
         "action": { "type": "block" },
         "condition": {"urlFilter": "motox3m", "resourceTypes": ["main_frame"] }
       },
       {
         "id": 7,
-        "priority": 2,
+        "priority": 3,
         "action": { "type": "block" },
         "condition": {"urlFilter": "basketball+stars", "resourceTypes": ["main_frame"] }
       },
       {
         "id": 8,
-        "priority": 2,
+        "priority": 3,
         "action": { "type": "block" },
         "condition": {"urlFilter": "onworks", "resourceTypes": ["main_frame"] }
+        
+      }, {
+        "id": 9,
+        "priority": 3,
+        "action": { "type": "block" },
+        "condition": {"urlFilter": "gamesunblocked", "resourceTypes": ["main_frame"] }
+      },
+      {
+        "id": 10,
+        "priority": 1,
+        "action": { "type": "allow" },
+        "condition": {"resourceTypes": ["main_frame"],"domains" : ["docs.google.com"]
+        }
+      },
+      {
+        "id": 11,
+        "priority": 1,
+        "action": { "type": "allow" },
+        "condition": {"resourceTypes": ["main_frame"],"domains" : ["drive.google.com"]
+        }
+      },
+      {
+        "id": 12,
+        "priority": 1,
+        "action": { "type": "allow" },
+        "condition": {"resourceTypes": ["main_frame"],"domains" : ["colab.research.google.com/"]
+        }
       }
     ]
