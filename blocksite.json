@@ -1,0 +1,39 @@
+[
+{
+    "id": 1,
+    "priority": 2,
+    "action": { "type": "block" },
+    "condition": {"urlFilter": "unblocked", "resourceTypes": ["main_frame"] }
+  },
+
+    {
+        "id": 2,
+        "priority": 2,
+        "action": { "type": "block" },
+        "condition": {"urlFilter": "unblockedgames", "resourceTypes": ["main_frame"] }
+      },
+      {
+        "id": 3,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {"urlFilter": "lichgames", "resourceTypes": ["main_frame"] }
+      },
+      {
+        "id": 4,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {"urlFilter": "1v1.lol", "resourceTypes": ["main_frame"] }
+      },
+      {
+        "id": 5,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {"urlFilter": "1v1lol", "resourceTypes": ["main_frame"] }
+      },
+      {
+        "id": 6,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {"urlFilter": "motox3m", "resourceTypes": ["main_frame"] }
+      }
+    ]
