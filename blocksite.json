@@ -10,7 +10,7 @@
         "id": 2,
         "priority": 3,
         "action": { "type": "block" },
-        "condition": {"urlFilter": "unblockedgames", "resourceTypes": ["main_frame"] }
+        "condition": {"urlFilter": "unblocked*games", "resourceTypes": ["main_frame"] }
       },
       {
         "id": 3,
@@ -22,7 +22,7 @@
         "id": 4,
         "priority": 2,
         "action": { "type": "block" },
-        "condition": {"urlFilter": "1v1.lol", "resourceTypes": ["main_frame"] }
+        "condition": {"urlFilter": "1v1*lol", "resourceTypes": ["main_frame"] }
       },
       {
         "id": 5,
@@ -40,7 +40,7 @@
         "id": 7,
         "priority": 3,
         "action": { "type": "block" },
-        "condition": {"urlFilter": "basketball+stars", "resourceTypes": ["main_frame"] }
+        "condition": {"urlFilter": "basketball*stars", "resourceTypes": ["main_frame"] }
       },
       {
         "id": 8,
@@ -52,7 +52,7 @@
         "id": 9,
         "priority": 3,
         "action": { "type": "block" },
-        "condition": {"urlFilter": "gamesunblocked", "resourceTypes": ["main_frame"] }
+        "condition": {"urlFilter": "games*unblocked", "resourceTypes": ["main_frame"] }
       },
       {
         "id": 10,
@@ -74,5 +74,65 @@
         "action": { "type": "allow" },
         "condition": {"resourceTypes": ["main_frame"],"domains" : ["colab.research.google.com/"]
         }
+      },
+      {
+        "id": 13,
+        "priority": 3,
+        "action": { "type": "block" },
+        "condition": {"resourceTypes": ["main_frame"],"urlFilter":"krunker"}
+      },
+      {
+        "id": 14,
+        "priority": 3,
+        "action": { "type": "block" },
+        "condition": {"resourceTypes": ["main_frame"],"urlFilter":"slope*unblocked"}
+      },
+      {
+        "id": 15,
+        "priority": 3,
+        "action": { "type": "block" },
+        "condition": {"resourceTypes": ["main_frame"],"urlFilter":"slope*game"}
+      },
+      {
+        "id": 16,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {"resourceTypes": ["main_frame"],"domains" : ["slope.fun"]
+        }
+      },
+      {
+        "id": 17,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {"resourceTypes": ["main_frame"],"domains" : ["run3ds.com"]
+        }
+      },
+      {
+        "id": 18,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {"resourceTypes": ["main_frame"],"urlFilter": "mill*eagle"
+        }
+      },
+      {
+        "id": 19,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {"resourceTypes": ["main_frame"],"urlFilter": "drchandlertallow"
+        }
+      },
+      {
+        "id": 20,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {"resourceTypes": ["main_frame"],"urlFilter": "proxy*unblocked"
+        }
+      },
+      {
+        "id": 21,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {"resourceTypes": ["main_frame"],"urlFilter": "proxy*game"
+        }
       }
-    ]
+      ]
