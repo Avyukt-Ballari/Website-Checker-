@@ -35,5 +35,17 @@
         "priority": 1,
         "action": { "type": "block" },
         "condition": {"urlFilter": "motox3m", "resourceTypes": ["main_frame"] }
+      },
+      {
+        "id": 7,
+        "priority": 2,
+        "action": { "type": "block" },
+        "condition": {"urlFilter": "basketball+stars", "resourceTypes": ["main_frame"] }
+      },
+      {
+        "id": 8,
+        "priority": 2,
+        "action": { "type": "block" },
+        "condition": {"urlFilter": "onworks", "resourceTypes": ["main_frame"] }
       }
     ]
