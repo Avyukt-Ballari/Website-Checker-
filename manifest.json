@@ -5,6 +5,7 @@
         "128": "icon-128.png" },    
         "name": "School Website Checker",
         "description": "A website checker to scan harmful websites and block them.",
+        "homepage_url": "https://avyukt-ballari.github.io/",
     "version": "2.1",
     "declarative_net_request": {
       "rule_resources": [{
